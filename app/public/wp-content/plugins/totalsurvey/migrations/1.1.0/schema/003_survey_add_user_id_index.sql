@@ -1,0 +1,1 @@
+CREATE INDEX `survey_user_id` ON {{prefix}}totalsurvey_surveys(user_id);

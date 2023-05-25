@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "../node_modules/@types/vue"
+    ],
+    "module": "None",
+    "outFile": "app-insights.js",
+    "target": "ES5",
+    "sourceMap": true,
+    "removeComments": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "ES2020",
+      "ES2015.Iterable"
+    ]
+  },
+  "exclude": [
+    "../node_modules"
+  ]
+}

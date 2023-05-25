@@ -1,0 +1,1 @@
+ALTER TABLE `{{prefix}}totalsurvey_surveys` ADD `reset_at` DATETIME NULL AFTER `updated_at`;

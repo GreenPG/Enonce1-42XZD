@@ -1,0 +1,3 @@
+Welcome to TotalSurvey!
+
+Please refer to https://totalsuite.net/documentation/totalsurvey/

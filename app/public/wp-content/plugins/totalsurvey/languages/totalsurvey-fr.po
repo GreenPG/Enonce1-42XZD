@@ -1,0 +1,587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalSurvey\n"
+"POT-Creation-Date: 2022-02-03 19:47+0100\n"
+"PO-Revision-Date: 2022-02-03 19:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: TotalSuite <support@totalsuite.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"BlockContent-Type: text/plain; charset=UTF-8\n"
+"BlockContent-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;"
+"esc_attr__;esc_attr_e;i18n\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: views\n"
+"X-Poedit-SearchPath-2: migrations\n"
+"X-Poedit-SearchPath-3: modules\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: modules/extensions/DateLimitation/Module.php:60
+msgid "This survey has not started yet."
+msgstr "Ce questionnaire n'est pas encore disponible."
+
+#: modules/extensions/DateLimitation/Module.php:67
+msgid "This survey has ended."
+msgstr "Ce questionnaire est terminé."
+
+#: modules/extensions/FieldsPack/Blocks/File.php:28
+msgid "Upload your file"
+msgstr "Télécharger votre fichier"
+
+#: modules/extensions/FieldsPack/Blocks/File.php:32 src/Blocks/Dropdown.php:36
+#: src/Tasks/Utils/GetExpressions.php:67
+msgid "Choose"
+msgstr "Choisir"
+
+#: modules/extensions/FieldsPack/Blocks/File.php:68
+#, fuzzy
+#| msgid "Maximum is {{max}}"
+msgid "Maximum allowed file size is {{max}}"
+msgstr "Le maximum est {{max}}"
+
+#: modules/extensions/FieldsPack/Blocks/File.php:100
+msgid "File could not be stored"
+msgstr "Le fichier n'as pas pu être enregistré"
+
+#: modules/extensions/FieldsPack/Blocks/ImageChoices.php:84
+#: src/Blocks/Choices.php:111 src/Blocks/Dropdown.php:84
+#: src/Blocks/MultipleChoices.php:111
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:61
+#: src/Tasks/Utils/GetExpressions.php:92
+msgid "Must be one of: {{allowedValues}}"
+msgstr "Doit être l’un des: {{allowedValues}}"
+
+#: modules/extensions/FieldsPack/Blocks/ImageChoices.php:103
+#: src/Blocks/Choices.php:130 src/Blocks/Dropdown.php:103
+#: src/Blocks/MultipleChoices.php:130
+#, fuzzy, php-format
+#| msgid "(Other) %s"
+msgid "Other: %s"
+msgstr "(Autre) %s"
+
+#: modules/extensions/FieldsPack/Blocks/Matrix.php:140
+#, fuzzy
+#| msgid "Please fill all criterions."
+msgid "Please fill all criteria."
+msgstr "S'il vous plait remplissez tous les champs."
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:100
+msgid "Very Sad"
+msgstr "Très triste"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:101
+msgid "Sad"
+msgstr "Triste"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:102
+msgid "Neutral"
+msgstr "Neutre"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:103
+msgid "Happy"
+msgstr "BlockContent"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:104
+msgid "Very Happy"
+msgstr "Très content"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:106
+#, php-format
+msgid "%d heart"
+msgid_plural "%d hearts"
+msgstr[0] "%d coeur"
+msgstr[1] "%d coeurs"
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:107
+#, php-format
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] "%d étoile"
+msgstr[1] "%d étoiles"
+
+#: modules/extensions/FieldsPack/Validations/MatrixValidation.php:29
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:31
+#: src/Tasks/Utils/GetExpressions.php:102
+msgid "Required"
+msgstr "Requis"
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:52
+#: src/Tasks/Entries/ExportCSV.php:57
+msgid "Section"
+msgstr "Section"
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:59
+#: src/Tasks/Entries/ExportCSV.php:58
+msgid "Question"
+msgstr "Question"
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:81
+msgid "Total"
+msgstr "Total"
+
+#: modules/extensions/Insights/Tasks/GenerateInsightsForSurvey.php:207
+#: src/Blocks/Choices.php:66 src/Blocks/Choices.php:75
+#: src/Blocks/MultipleChoices.php:66 src/Blocks/MultipleChoices.php:75
+#: src/Models/FieldDefinition.php:87 src/Tasks/Utils/GetExpressions.php:62
+msgid "Other"
+msgstr "Autre"
+
+#: modules/extensions/Limitations/Strategies/CookieLimitationStrategy.php:50
+#: modules/extensions/Limitations/Strategies/IPLimitationStrategy.php:46
+#: modules/extensions/Limitations/Strategies/UserLimitationStrategy.php:42
+msgid "Submissions quota exceeded"
+msgstr "Quota de soumissions dépassé"
+
+#: modules/extensions/Popup/Model/Popup.php:28
+msgid "Participate"
+msgstr "Participer"
+
+#: modules/extensions/Popup/Model/Popup.php:33
+msgid "Not now"
+msgstr "Pas maintenant"
+
+#: modules/extensions/Popup/Model/Popup.php:39
+msgid "Would you like to participate in our survey?"
+msgstr "Souhaitez vous participer à notre questionnaire ?"
+
+#: modules/extensions/Popup/Model/Popup.php:46
+#: modules/extensions/Popup/Tasks/GetDefaults.php:29 src/Models/Survey.php:188
+#: src/Tasks/Surveys/GetSurveyDefaults.php:54
+#: src/Tasks/Surveys/GetSurveyDefaults.php:61
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:30
+msgid "Participate on our survey!"
+msgstr "Participer à notre questionnaire !"
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:33
+msgid "Start"
+msgstr "Commencer"
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:34
+msgid "Discard"
+msgstr "Annuler"
+
+#: modules/extensions/Scoring/Model/Scoring.php:74
+#: src/Tasks/Utils/GetExpressions.php:72
+msgid "Done"
+msgstr "Terminé"
+
+#: modules/extensions/Scoring/Module.php:86
+msgid "Score"
+msgstr "Résultat"
+
+#: modules/extensions/Scoring/Module.php:87
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: modules/extensions/Scoring/Module.php:88
+msgid "Grade"
+msgstr "Mention"
+
+#: modules/extensions/Workflows/views/email.php:6
+msgid "New entry received"
+msgstr "Nouvelle entrée reçue"
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:39
+#: src/Tasks/Utils/GetExpressions.php:77
+msgid "Start over"
+msgstr "Recommencer"
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:43
+#: src/Tasks/Utils/GetExpressions.php:57
+msgid "Previous"
+msgstr "Précédent"
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:48
+#: src/Tasks/Utils/GetExpressions.php:47
+msgid "Submit"
+msgstr "Valider"
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:51
+#: src/Tasks/Utils/GetExpressions.php:52
+msgid "Next"
+msgstr "Suivant"
+
+#: modules/templates/DefaultTemplate/views/partials/thankyou.php:21
+#: src/Tasks/Utils/GetExpressions.php:42
+msgid "Submit another entry"
+msgstr "Recommencer le questionnaire"
+
+#: modules/templates/DefaultTemplate/views/partials/welcome.php:19
+#: src/Tasks/Utils/GetExpressions.php:32
+msgid "Start survey"
+msgstr "Commencer le questionnaire"
+
+#: src/Blocks/BlockType.php:74
+msgid "answer"
+msgstr "réponse"
+
+#: src/Blocks/Scale.php:33
+msgid "Least"
+msgstr "Le moins"
+
+#: src/Blocks/Scale.php:34
+msgid "Most"
+msgstr "Le plus"
+
+#: src/Blocks/Scale.php:99
+#, php-format
+msgid "%d out of %d"
+msgstr "%d sur %d"
+
+#: src/Exceptions/Limitations/UnauthenticatedUser.php:22
+msgid "Login"
+msgstr "Connexion"
+
+#: src/Models/Entry.php:74
+msgid "Entry not found"
+msgstr "Entrée non trouvé"
+
+#: src/Models/Preset.php:69
+msgid "Preset not found"
+msgstr "Modèle introuvable"
+
+#: src/Models/Survey.php:201 src/Tasks/Surveys/GetSurveyDefaults.php:71
+#: src/Tasks/Utils/GetExpressions.php:37
+msgid "Entry received. Thank you for participating in this survey!"
+msgstr "Donnée reçue. Merci pour votre participation à ce questionnaire !"
+
+#: src/Models/Survey.php:227
+msgid "Section not found"
+msgstr "Section introuvable"
+
+#: src/Models/Survey.php:241 src/Models/Survey.php:259
+#: src/Models/Survey.php:277
+msgid "Survey not found"
+msgstr "Questionnaire introuvable"
+
+#: src/Pages/Dashboard.php:33
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: src/Pages/Dashboard.php:34
+msgid "Surveys"
+msgstr "Questionnaires"
+
+#: src/Pages/Dashboard.php:35
+msgid "Templates"
+msgstr "Modèles"
+
+#: src/Pages/Dashboard.php:36
+msgid "Extensions"
+msgstr "Extensions"
+
+#: src/Pages/Dashboard.php:37
+msgid "Options"
+msgstr "Options"
+
+#: src/Pages/Dashboard.php:38
+msgid "Support"
+msgstr "Support"
+
+#: src/Pages/Dashboard.php:95
+msgid "TotalSurvey"
+msgstr "TotalSurvey"
+
+#: src/Pages/Dashboard.php:240
+msgid "Hey mate!"
+msgstr "Salut !"
+
+#: src/Pages/Dashboard.php:242
+msgid ""
+"We are delighted to see you started using TotalSurvey, <br> TotalSurvey will "
+"impress you, we promise!"
+msgstr ""
+"Nous sommes ravis de vous voir utiliser TotalSurvey, <br> TotalSurvey vous "
+"impressionnera, promis!"
+
+#: src/Pages/Dashboard.php:248
+msgid "User Friendly"
+msgstr "Facile à utiliser"
+
+#: src/Pages/Dashboard.php:250
+msgid ""
+"Crafting surveys isn't easy but with TotalSurvey, it's a joyful experience."
+msgstr ""
+"Créer des sondages n’est pas facile mais avec TotalSurvey, c’est une "
+"expérience joyeuse."
+
+#: src/Pages/Dashboard.php:256
+msgid "Elegant Design"
+msgstr "Design élégant"
+
+#: src/Pages/Dashboard.php:258
+msgid "A good-looking survey could help you achieve a better response rate."
+msgstr ""
+"Une bonne enquête pourrait vous aider à obtenir un meilleur taux de réponse."
+
+#: src/Pages/Dashboard.php:264
+msgid "Flexibility & Extensibility"
+msgstr "Flexibilité et extensibilité"
+
+#: src/Pages/Dashboard.php:266
+msgid "Build highly flexible surveys to achieve unprecedented results."
+msgstr ""
+"Créez des enquêtes hautement flexibles pour obtenir des résultats sans "
+"précédent."
+
+#: src/Pages/Dashboard.php:273 src/Pages/Dashboard.php:309
+msgid "Get started"
+msgstr "Commencer"
+
+#: src/Pages/Dashboard.php:275 src/Pages/Dashboard.php:311
+msgid "We've prepared some materials for you to ease your learning curve."
+msgstr ""
+"Nous avons préparé du matériel pour vous faciliter votre courbe "
+"d’apprentissage."
+
+#: src/Pages/Dashboard.php:280
+msgid "How to create a survey"
+msgstr "Comment créer un questionnaire"
+
+#: src/Pages/Dashboard.php:282
+msgid "Learn how to create a survey in no time using TotalSurvey."
+msgstr ""
+"Apprenez à créer un questionnaire en un rien de temps à l’aide de "
+"TotalSurvey."
+
+#: src/Pages/Dashboard.php:289
+msgid "How to integrate a survey"
+msgstr "Comment intégrer un questionnaire"
+
+#: src/Pages/Dashboard.php:291
+msgid ""
+"Once your survey is ready, we'll show you how to integrate it into your site."
+msgstr ""
+"Une fois votre questionnaire prêt, nous vous montrerons comment l’intégrer à "
+"votre site."
+
+#: src/Pages/Dashboard.php:298
+msgid "How to customize appearance"
+msgstr "Comment personnaliser l’apparence"
+
+#: src/Pages/Dashboard.php:300
+msgid ""
+"Learn how to customize the appearance of the survey to match your brand."
+msgstr ""
+"Découvrez comment personnaliser l’apparence du questionnaire en fonction de "
+"votre marque."
+
+#: src/Pages/Dashboard.php:315
+msgid "Let you know about the upcoming features."
+msgstr "Informez-vous des fonctionnalités à venir."
+
+#: src/Pages/Dashboard.php:316
+msgid "Inform you about important updates."
+msgstr "Vous informer des mises à jour importantes."
+
+#: src/Pages/Dashboard.php:317
+msgid "Adjust recommendations."
+msgstr "Ajustez les recommandations."
+
+#: src/Pages/Dashboard.php:318
+msgid "Adapt product settings."
+msgstr "Adaptez les paramètres du produit."
+
+#: src/Pages/Dashboard.php:319
+msgid "Send you exclusive offers."
+msgstr "Vous envoyer des offres exclusives."
+
+#: src/Pages/Dashboard.php:323
+msgid "Bravo! You did it!"
+msgstr "Bravo! Vous avez terminé !"
+
+#: src/Pages/Dashboard.php:325
+msgid ""
+"You are all set to start making informed decisions! One last thing, we'd "
+"like to collect some anonymous usage information that will help us shape up "
+"TotalSurvey."
+msgstr ""
+"Vous êtes prêts à prendre des décisions éclairées! Une dernière chose, nous "
+"aimerions collecter des informations d’utilisation anonymes qui nous "
+"aideront à façonner TotalSurvey."
+
+#: src/Pages/Dashboard.php:329
+msgid "Make TotalSurvey stable and bug-free."
+msgstr "Rendre TotalSurvey stable et sans bug."
+
+#: src/Pages/Dashboard.php:330
+msgid "Get an overview of environments."
+msgstr "Obtenir un aperçu des environnements."
+
+#: src/Pages/Dashboard.php:331
+msgid "Optimize performance."
+msgstr "Optimiser les performances."
+
+#: src/Pages/Dashboard.php:332
+msgid "Adjust default parameters."
+msgstr "Ajustez les paramètres par défaut."
+
+#: src/Tasks/Entries/CreateEntry.php:84
+msgid "Could not save the entry"
+msgstr "Impossible d'enregistrer l'entrée"
+
+#: src/Tasks/Entries/ExportCSV.php:50 src/Widgets/Survey.php:15
+msgid "Survey"
+msgstr "Questionnaire"
+
+#: src/Tasks/Entries/ExportCSV.php:51
+msgid "Entry ID"
+msgstr "Entrée ID"
+
+#: src/Tasks/Entries/ExportCSV.php:52
+#, fuzzy
+#| msgid "User Email"
+msgid "User Name"
+msgstr "Mail uitilisateur"
+
+#: src/Tasks/Entries/ExportCSV.php:53
+msgid "User Email"
+msgstr "Mail uitilisateur"
+
+#: src/Tasks/Entries/ExportCSV.php:54
+msgid "Created at (UTC)"
+msgstr "Crée à (UTC)"
+
+#: src/Tasks/Entries/ExportCSV.php:55
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: src/Tasks/Entries/ExportCSV.php:56
+msgid "User Agent"
+msgstr "User Agent"
+
+#: src/Tasks/Entries/ExportCSV.php:59
+msgid "Answer"
+msgstr "Réponse"
+
+#: src/Tasks/Sections/ValidateSection.php:55
+#: src/Tasks/Utils/GetExpressions.php:97
+msgid "Validation errors"
+msgstr "Erreurs de validation"
+
+#: src/Tasks/Surveys/CheckLimitations.php:55
+#: src/Tasks/Utils/GetExpressions.php:87
+msgid "This survey is limited to authenticated users."
+msgstr "Ce questionnaire est limité aux utilisateurs authentifiés."
+
+#: src/Tasks/Surveys/CheckLimitations.php:68
+msgid ""
+"This survey is limited to a specific group of users, please consider "
+"contacting your administrator if you think that is a mistake."
+msgstr ""
+"Ce questionnaire est restreint pour certaines personnes, contactez "
+"l'administrateur si vous pensez qu'il s'agit d'une erreur."
+
+#: src/Tasks/Surveys/RenderSurvey.php:85
+#, php-format
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+#: src/Tasks/Surveys/TrashSurvey.php:57
+msgid "Could not delete the survey"
+msgstr "Vous ne pouvez pas supprimer ce questionnaire"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:32
+#: src/Tasks/Utils/GetExpressions.php:107
+msgid "Must be a valid email"
+msgstr "Doit être un e-mail valide"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:33
+#: src/Tasks/Utils/GetExpressions.php:112
+msgid "Minimum is {{min}}"
+msgstr "Minimum est {{min}}"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:34
+#: src/Tasks/Utils/GetExpressions.php:117
+msgid "Maximum is {{max}}"
+msgstr "Le maximum est {{max}}"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:38
+#: src/Tasks/Utils/GetExpressions.php:122
+msgid "Must be a date before {{time}}"
+msgstr "Ça doit être une date avant {{time}}"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:43
+#: src/Tasks/Utils/GetExpressions.php:127
+msgid "Must be a date after {{time}}"
+msgstr "Ça doit être une date après {{time}}"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:45
+#: src/Tasks/Utils/GetExpressions.php:132
+msgid "Must be numeric"
+msgstr "Doit être numérique"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:46
+#: src/Tasks/Utils/GetExpressions.php:137
+msgid "Must be a valid date format"
+msgstr "Doit être un format de date valide"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:50
+#: src/Tasks/Utils/GetExpressions.php:142
+msgid "Must be between {{min}} and {{max}}"
+msgstr "Doit être compris entre {{min}} et {{max}}"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:52
+#: src/Tasks/Utils/GetExpressions.php:147
+msgid "Must be a valid uploaded file"
+msgstr "Doit être un fichier valide"
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:56
+#: src/Tasks/Utils/GetExpressions.php:152
+msgid "File type must be {{allowedTypes}}"
+msgstr "Le type de fichier doit être {{allowedTypes}}"
+
+#: src/Tasks/Utils/GetExpressions.php:82
+msgid "This survey is not available at the moment."
+msgstr "Ce questionnaire n'est pas disponible pour le moment."
+
+#: src/Widgets/Survey.php:26
+msgid "Survey:"
+msgstr "Questionnaire :"
+
+#: src/Widgets/Survey.php:34
+msgid "None"
+msgstr "Aucune"
+
+#: views/view.php:62
+msgid ""
+"This survey is disabled. You need to enable it to make it publicly "
+"accessible."
+msgstr ""
+"Ce questionnaire a été desactivé. Activez-le pour le rendre accessible "
+"publiquement."
+
+#~ msgid "Thank you"
+#~ msgstr "Merci"
+
+#~ msgid "Thank you !"
+#~ msgstr "Merci !"
+
+#~ msgid "Entry received. Thank you for participating in this survey !"
+#~ msgstr "Entrée reçue. Merci d’avoir participé à cette enquête!"
+
+#, php-format
+#~ msgid "%d point"
+#~ msgid_plural "%d points"
+#~ msgstr[0] "%d point"
+#~ msgstr[1] "%d points"
+
+#~ msgid "User ID"
+#~ msgstr "Utilisateur ID"
+
+#, php-format
+#~ msgid "The answer only allows %s"
+#~ msgstr "La réponse autorise seulement %s"
+
+#~ msgid "You cannot participate in this survey."
+#~ msgstr "Vous ne pouvez pas participer à ce questionnaire."

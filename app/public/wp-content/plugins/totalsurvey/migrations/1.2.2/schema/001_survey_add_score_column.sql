@@ -1,0 +1,1 @@
+ALTER TABLE `{{prefix}}totalsurvey_entries` ADD `score` INT UNSIGNED NULL;

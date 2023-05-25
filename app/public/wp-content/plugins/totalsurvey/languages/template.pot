@@ -1,0 +1,521 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalSurvey\n"
+"POT-Creation-Date: 2022-02-03 19:46+0100\n"
+"PO-Revision-Date: 2020-07-09 00:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: TotalSuite <support@totalsuite.net>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"BlockContent-Type: text/plain; charset=UTF-8\n"
+"BlockContent-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;esc_attr__;esc_attr_e;i18n\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: views\n"
+"X-Poedit-SearchPath-2: migrations\n"
+"X-Poedit-SearchPath-3: modules\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: modules/extensions/DateLimitation/Module.php:60
+msgid "This survey has not started yet."
+msgstr ""
+
+#: modules/extensions/DateLimitation/Module.php:67
+msgid "This survey has ended."
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/File.php:28
+msgid "Upload your file"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/File.php:32 src/Blocks/Dropdown.php:36
+#: src/Tasks/Utils/GetExpressions.php:67
+msgid "Choose"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/File.php:68
+msgid "Maximum allowed file size is {{max}}"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/File.php:100
+msgid "File could not be stored"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/ImageChoices.php:84
+#: src/Blocks/Choices.php:111 src/Blocks/Dropdown.php:84
+#: src/Blocks/MultipleChoices.php:111
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:61
+#: src/Tasks/Utils/GetExpressions.php:92
+msgid "Must be one of: {{allowedValues}}"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/ImageChoices.php:103
+#: src/Blocks/Choices.php:130 src/Blocks/Dropdown.php:103
+#: src/Blocks/MultipleChoices.php:130
+#, php-format
+msgid "Other: %s"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Matrix.php:140
+msgid "Please fill all criteria."
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:100
+msgid "Very Sad"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:101
+msgid "Sad"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:102
+msgid "Neutral"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:103
+msgid "Happy"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:104
+msgid "Very Happy"
+msgstr ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:106
+#, php-format
+msgid "%d heart"
+msgid_plural "%d hearts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/extensions/FieldsPack/Blocks/Rating.php:107
+#, php-format
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/extensions/FieldsPack/Validations/MatrixValidation.php:29
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:31
+#: src/Tasks/Utils/GetExpressions.php:102
+msgid "Required"
+msgstr ""
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:52
+#: src/Tasks/Entries/ExportCSV.php:57
+msgid "Section"
+msgstr ""
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:59
+#: src/Tasks/Entries/ExportCSV.php:58
+msgid "Question"
+msgstr ""
+
+#: modules/extensions/Insights/Tasks/ExportCsv.php:81
+msgid "Total"
+msgstr ""
+
+#: modules/extensions/Insights/Tasks/GenerateInsightsForSurvey.php:207
+#: src/Blocks/Choices.php:66 src/Blocks/Choices.php:75
+#: src/Blocks/MultipleChoices.php:66 src/Blocks/MultipleChoices.php:75
+#: src/Models/FieldDefinition.php:87 src/Tasks/Utils/GetExpressions.php:62
+msgid "Other"
+msgstr ""
+
+#: modules/extensions/Limitations/Strategies/CookieLimitationStrategy.php:50
+#: modules/extensions/Limitations/Strategies/IPLimitationStrategy.php:46
+#: modules/extensions/Limitations/Strategies/UserLimitationStrategy.php:42
+msgid "Submissions quota exceeded"
+msgstr ""
+
+#: modules/extensions/Popup/Model/Popup.php:28
+msgid "Participate"
+msgstr ""
+
+#: modules/extensions/Popup/Model/Popup.php:33
+msgid "Not now"
+msgstr ""
+
+#: modules/extensions/Popup/Model/Popup.php:39
+msgid "Would you like to participate in our survey?"
+msgstr ""
+
+#: modules/extensions/Popup/Model/Popup.php:46
+#: modules/extensions/Popup/Tasks/GetDefaults.php:29 src/Models/Survey.php:188
+#: src/Tasks/Surveys/GetSurveyDefaults.php:54
+#: src/Tasks/Surveys/GetSurveyDefaults.php:61
+msgid "Thank you!"
+msgstr ""
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:30
+msgid "Participate on our survey!"
+msgstr ""
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:33
+msgid "Start"
+msgstr ""
+
+#: modules/extensions/Popup/Tasks/GetDefaults.php:34
+msgid "Discard"
+msgstr ""
+
+#: modules/extensions/Scoring/Model/Scoring.php:74
+#: src/Tasks/Utils/GetExpressions.php:72
+msgid "Done"
+msgstr ""
+
+#: modules/extensions/Scoring/Module.php:86
+msgid "Score"
+msgstr ""
+
+#: modules/extensions/Scoring/Module.php:87
+msgid "Percentage"
+msgstr ""
+
+#: modules/extensions/Scoring/Module.php:88
+msgid "Grade"
+msgstr ""
+
+#: modules/extensions/Workflows/views/email.php:6
+msgid "New entry received"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:39
+#: src/Tasks/Utils/GetExpressions.php:77
+msgid "Start over"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:43
+#: src/Tasks/Utils/GetExpressions.php:57
+msgid "Previous"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:48
+#: src/Tasks/Utils/GetExpressions.php:47
+msgid "Submit"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/sections.php:51
+#: src/Tasks/Utils/GetExpressions.php:52
+msgid "Next"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/thankyou.php:21
+#: src/Tasks/Utils/GetExpressions.php:42
+msgid "Submit another entry"
+msgstr ""
+
+#: modules/templates/DefaultTemplate/views/partials/welcome.php:19
+#: src/Tasks/Utils/GetExpressions.php:32
+msgid "Start survey"
+msgstr ""
+
+#: src/Blocks/BlockType.php:74
+msgid "answer"
+msgstr ""
+
+#: src/Blocks/Scale.php:33
+msgid "Least"
+msgstr ""
+
+#: src/Blocks/Scale.php:34
+msgid "Most"
+msgstr ""
+
+#: src/Blocks/Scale.php:99
+#, php-format
+msgid "%d out of %d"
+msgstr ""
+
+#: src/Exceptions/Limitations/UnauthenticatedUser.php:22
+msgid "Login"
+msgstr ""
+
+#: src/Models/Entry.php:74
+msgid "Entry not found"
+msgstr ""
+
+#: src/Models/Preset.php:69
+msgid "Preset not found"
+msgstr ""
+
+#: src/Models/Survey.php:201 src/Tasks/Surveys/GetSurveyDefaults.php:71
+#: src/Tasks/Utils/GetExpressions.php:37
+msgid "Entry received. Thank you for participating in this survey!"
+msgstr ""
+
+#: src/Models/Survey.php:227
+msgid "Section not found"
+msgstr ""
+
+#: src/Models/Survey.php:241 src/Models/Survey.php:259
+#: src/Models/Survey.php:277
+msgid "Survey not found"
+msgstr ""
+
+#: src/Pages/Dashboard.php:33
+msgid "Dashboard"
+msgstr ""
+
+#: src/Pages/Dashboard.php:34
+msgid "Surveys"
+msgstr ""
+
+#: src/Pages/Dashboard.php:35
+msgid "Templates"
+msgstr ""
+
+#: src/Pages/Dashboard.php:36
+msgid "Extensions"
+msgstr ""
+
+#: src/Pages/Dashboard.php:37
+msgid "Options"
+msgstr ""
+
+#: src/Pages/Dashboard.php:38
+msgid "Support"
+msgstr ""
+
+#: src/Pages/Dashboard.php:95
+msgid "TotalSurvey"
+msgstr ""
+
+#: src/Pages/Dashboard.php:240
+msgid "Hey mate!"
+msgstr ""
+
+#: src/Pages/Dashboard.php:242
+msgid "We are delighted to see you started using TotalSurvey, <br> TotalSurvey will impress you, we promise!"
+msgstr ""
+
+#: src/Pages/Dashboard.php:248
+msgid "User Friendly"
+msgstr ""
+
+#: src/Pages/Dashboard.php:250
+msgid "Crafting surveys isn't easy but with TotalSurvey, it's a joyful experience."
+msgstr ""
+
+#: src/Pages/Dashboard.php:256
+msgid "Elegant Design"
+msgstr ""
+
+#: src/Pages/Dashboard.php:258
+msgid "A good-looking survey could help you achieve a better response rate."
+msgstr ""
+
+#: src/Pages/Dashboard.php:264
+msgid "Flexibility & Extensibility"
+msgstr ""
+
+#: src/Pages/Dashboard.php:266
+msgid "Build highly flexible surveys to achieve unprecedented results."
+msgstr ""
+
+#: src/Pages/Dashboard.php:273 src/Pages/Dashboard.php:309
+msgid "Get started"
+msgstr ""
+
+#: src/Pages/Dashboard.php:275 src/Pages/Dashboard.php:311
+msgid "We've prepared some materials for you to ease your learning curve."
+msgstr ""
+
+#: src/Pages/Dashboard.php:280
+msgid "How to create a survey"
+msgstr ""
+
+#: src/Pages/Dashboard.php:282
+msgid "Learn how to create a survey in no time using TotalSurvey."
+msgstr ""
+
+#: src/Pages/Dashboard.php:289
+msgid "How to integrate a survey"
+msgstr ""
+
+#: src/Pages/Dashboard.php:291
+msgid "Once your survey is ready, we'll show you how to integrate it into your site."
+msgstr ""
+
+#: src/Pages/Dashboard.php:298
+msgid "How to customize appearance"
+msgstr ""
+
+#: src/Pages/Dashboard.php:300
+msgid "Learn how to customize the appearance of the survey to match your brand."
+msgstr ""
+
+#: src/Pages/Dashboard.php:315
+msgid "Let you know about the upcoming features."
+msgstr ""
+
+#: src/Pages/Dashboard.php:316
+msgid "Inform you about important updates."
+msgstr ""
+
+#: src/Pages/Dashboard.php:317
+msgid "Adjust recommendations."
+msgstr ""
+
+#: src/Pages/Dashboard.php:318
+msgid "Adapt product settings."
+msgstr ""
+
+#: src/Pages/Dashboard.php:319
+msgid "Send you exclusive offers."
+msgstr ""
+
+#: src/Pages/Dashboard.php:323
+msgid "Bravo! You did it!"
+msgstr ""
+
+#: src/Pages/Dashboard.php:325
+msgid "You are all set to start making informed decisions! One last thing, we'd like to collect some anonymous usage information that will help us shape up TotalSurvey."
+msgstr ""
+
+#: src/Pages/Dashboard.php:329
+msgid "Make TotalSurvey stable and bug-free."
+msgstr ""
+
+#: src/Pages/Dashboard.php:330
+msgid "Get an overview of environments."
+msgstr ""
+
+#: src/Pages/Dashboard.php:331
+msgid "Optimize performance."
+msgstr ""
+
+#: src/Pages/Dashboard.php:332
+msgid "Adjust default parameters."
+msgstr ""
+
+#: src/Tasks/Entries/CreateEntry.php:84
+msgid "Could not save the entry"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:50 src/Widgets/Survey.php:15
+msgid "Survey"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:51
+msgid "Entry ID"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:52
+msgid "User Name"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:53
+msgid "User Email"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:54
+msgid "Created at (UTC)"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:55
+msgid "IP Address"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:56
+msgid "User Agent"
+msgstr ""
+
+#: src/Tasks/Entries/ExportCSV.php:59
+msgid "Answer"
+msgstr ""
+
+#: src/Tasks/Sections/ValidateSection.php:55
+#: src/Tasks/Utils/GetExpressions.php:97
+msgid "Validation errors"
+msgstr ""
+
+#: src/Tasks/Surveys/CheckLimitations.php:55
+#: src/Tasks/Utils/GetExpressions.php:87
+msgid "This survey is limited to authenticated users."
+msgstr ""
+
+#: src/Tasks/Surveys/CheckLimitations.php:68
+msgid "This survey is limited to a specific group of users, please consider contacting your administrator if you think that is a mistake."
+msgstr ""
+
+#: src/Tasks/Surveys/RenderSurvey.php:85
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: src/Tasks/Surveys/TrashSurvey.php:57
+msgid "Could not delete the survey"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:32
+#: src/Tasks/Utils/GetExpressions.php:107
+msgid "Must be a valid email"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:33
+#: src/Tasks/Utils/GetExpressions.php:112
+msgid "Minimum is {{min}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:34
+#: src/Tasks/Utils/GetExpressions.php:117
+msgid "Maximum is {{max}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:38
+#: src/Tasks/Utils/GetExpressions.php:122
+msgid "Must be a date before {{time}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:43
+#: src/Tasks/Utils/GetExpressions.php:127
+msgid "Must be a date after {{time}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:45
+#: src/Tasks/Utils/GetExpressions.php:132
+msgid "Must be numeric"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:46
+#: src/Tasks/Utils/GetExpressions.php:137
+msgid "Must be a valid date format"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:50
+#: src/Tasks/Utils/GetExpressions.php:142
+msgid "Must be between {{min}} and {{max}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:52
+#: src/Tasks/Utils/GetExpressions.php:147
+msgid "Must be a valid uploaded file"
+msgstr ""
+
+#: src/Tasks/Utils/GetDefaultValidationMessages.php:56
+#: src/Tasks/Utils/GetExpressions.php:152
+msgid "File type must be {{allowedTypes}}"
+msgstr ""
+
+#: src/Tasks/Utils/GetExpressions.php:82
+msgid "This survey is not available at the moment."
+msgstr ""
+
+#: src/Widgets/Survey.php:26
+msgid "Survey:"
+msgstr ""
+
+#: src/Widgets/Survey.php:34
+msgid "None"
+msgstr ""
+
+#: views/view.php:62
+msgid "This survey is disabled. You need to enable it to make it publicly accessible."
+msgstr ""
