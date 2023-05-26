@@ -25,8 +25,55 @@ app.listen(
 // TEST DATA //
 
 const tests = [
-	{id:1, name: 'nays', mail: 'mathys.vitiell@gmail.com', happiness: 5, animal: 'cat'},
-	{id:2, name: 'gigi', mail: 'gigi@outlook.fr', happiness: 4, animal: 'chien'},
+	{
+		"id": 1,
+		"name": "Jean",
+		"mail": "mathys.vitiell@gmail.com",
+		"happiness": "5",
+		"animal": "cat"
+	  },
+	  {
+		"id": 2,
+		"name": "Maxime",
+		"mail": "gigi@outlook.fr",
+		"happiness": "4",
+		"animal": "chien"
+	  },
+	  {
+		"id": 3,
+		"name": "axel",
+		"mail": "gabriel.touzalin@gmail.com",
+		"happiness": "1",
+		"animal": "poule"
+	  },
+	  {
+		"id": 4,
+		"name": "mathys",
+		"mail": "gabriel.touzalin@gmail.com",
+		"happiness": "8",
+		"animal": "dinosaure"
+	  },
+	  {
+		"id": 5,
+		"name": "Doc",
+		"mail": "gabriel.touzalin@gmail.com",
+		"happiness": "10",
+		"animal": "le chien de camille"
+	  },
+	  {
+		"id": 6,
+		"name": "gabriel",
+		"mail": "gabriel.touzalin@gmail.com",
+		"happiness": "2",
+		"animal": "citron"
+	  },
+	  {
+		"id": 7,
+		"name": "gilian",
+		"mail": "gabriel.touzalin@gmail.com",
+		"happiness": "7",
+		"animal": "cochon"
+	  }
 ];
 
 
