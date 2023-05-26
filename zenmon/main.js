@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.listen(
 	8082,
-	() => console.log('cest ici http://localhost:8082')
+	() => console.log("Lancement de l'api chatastique!")
 );
 
 // TEST DATA //
