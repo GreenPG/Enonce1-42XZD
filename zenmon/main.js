@@ -1,3 +1,14 @@
+/*
+*	DESCRIPTION:
+*		Basic API to retrieve data from a wordpress survey and manipulate it
+*
+*	AUTHOR :
+*		CHAKERS {
+*			Mathys VITIELLO,
+*			Gillian PASQUETTE,
+*			Gabriel TOUZALIN
+*		}
+*/
 const express = require('express');
 const { parseArgs } = require('util');
 const app  = express();
