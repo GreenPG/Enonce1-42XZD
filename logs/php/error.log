@@ -132,3 +132,41 @@ Stack trace:
 [26-May-2023 06:07:11 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 595
 [26-May-2023 06:09:39 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 595
 [26-May-2023 06:12:54 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 595
+[26-May-2023 06:18:23 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 595
+[26-May-2023 06:47:38 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 558
+[26-May-2023 06:47:38 UTC] PHP Fatal error:  Uncaught TypeError: http_build_query(): Argument #1 ($data) must be of type array, string given in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Transport/Curl.php:578
+Stack trace:
+#0 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Transport/Curl.php(578): http_build_query('{"name":"fqw","...', '', '&')
+#1 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Transport/Curl.php(391): WpOrg\Requests\Transport\Curl::format_get('http://localhos...', '{"name":"fqw","...')
+#2 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Transport/Curl.php(171): WpOrg\Requests\Transport\Curl->setup_handle('http://localhos...', Array, '{"name":"fqw","...', Array)
+#3 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Requests.php(469): WpOrg\Requests\Transport\Curl->request('http://localhos...', Array, '{"name":"fqw","...', Array)
+#4 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-http.php(396): WpOrg\Requests\Requests::request('http://localhos...', Array, '{"name":"fqw","...', 'GET', Array)
+#5 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-http.php(634): WP_Http->request('http://localhos...', Array)
+#6 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/http.php(162): WP_Http->get('http://localhos...', Array)
+#7 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php(587): wp_remote_get('http://localhos...', Array)
+#8 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php(517): Cf7_To_Any_Api_Admin::cf7anyapi_send_lead(Array, 'http://localhos...', 'json', 'GET', 53, 55, '', '', '', Array)
+#9 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-hook.php(308): Cf7_To_Any_Api_Admin::cf7_to_any_api_send_data_to_api(Object(WPCF7_ContactForm))
+#10 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/submission.php(119): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#13 [internal function]: WPCF7_Submission->{closure}()
+#14 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/l10n.php(147): call_user_func(Object(Closure))
+#15 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/submission.php(131): wpcf7_switch_locale('en_US', Object(Closure))
+#16 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/submission.php(35): WPCF7_Submission->proceed()
+#17 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/contact-form.php(1049): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#18 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-7/includes/rest-api.php(357): WPCF7_ContactForm->submit()
+#19 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/rest-api/class-wp-rest-server.php(1181): WPCF7_REST_Controller->create_feedback(Object(WP_REST_Request))
+#20 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/contact-form-7...', Array, NULL)
+#21 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#22 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/rest-api.php(410): WP_REST_Server->serve_request('/contact-form-7...')
+#23 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#24 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#26 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp.php(399): do_action_ref_array('parse_request', Array)
+#27 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/class-wp.php(780): WP->parse_request('')
+#28 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/functions.php(1334): WP->main('')
+#29 /Users/GTO86/Local Sites/chaker-survey/app/public/wp-blog-header.php(16): wp()
+#30 /Users/GTO86/Local Sites/chaker-survey/app/public/index.php(17): require('/Users/GTO86/Lo...')
+#31 {main}
+  thrown in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-includes/Requests/src/Transport/Curl.php on line 578
+[26-May-2023 06:59:02 UTC] PHP Warning:  Undefined variable $wp_version in /Users/GTO86/Local Sites/chaker-survey/app/public/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 595
