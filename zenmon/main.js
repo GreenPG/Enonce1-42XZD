@@ -1,5 +1,3 @@
-
-
 const express = require('express');
 const { parseArgs } = require('util');
 const app  = express();
@@ -17,7 +15,7 @@ const tests = [
 ];
 const thename = [
 ];
-
+let searchname = "";
 
 
 
@@ -27,16 +25,18 @@ app.get('/api/test', (req, res) => {
 });
 app.get('/api/nom', (req, res) => {
 	const termeknevFlat = thename.flat().map(({ name }) => name);
-	console.log(termeknevFlat);
 	res.send(thename);
 });
 
 app.post('/api/nom', (req, res) => {
-	const thenameonly = {
-	name: req.body.name,
-	};
-	thename.push(thenameonly);
-	res.send(thenameonly);
+
+	searchname = req.body.name;
+	const perso = tests.find(c => c.name == searchname);
+	if (!perso) res.status(404).send('Ne trouve pas name');
+	if (!perso) console.log ("Pas de resultat pour : " + searchname);
+	res.send(perso);
+	if (perso) console.log("L'animal preferee de " + searchname + " est : " + perso.animal);
+
 });
 
 app.post('/api/test', (req, res) => {
