@@ -12,6 +12,7 @@ app.listen(
 );
 
 // TEST DATA //
+
 const tests = [
 	{id:1, name: 'nays', mail: 'mathys.vitiell@gmail.com', happiness: 5, animal: 'cat'},
 	{id:2, name: 'gigi', mail: 'gigi@outlook.fr', happiness: 4, animal: 'chien'},
@@ -25,11 +26,12 @@ app.get('/api/test', (req, res) => {
 });
 
 
-let searchname = "";
+
 
 // RETRIEVE FAVORITE ANIMAL FROM USER //
 
 app.post('/api/nom', (req, res) => {
+	let searchname = "";
 	searchname = req.body.name;
 	const perso = tests.find(c => c.name == searchname);
 	if (!perso) res.status(404).send('Ne trouve pas name');
@@ -39,7 +41,7 @@ app.post('/api/nom', (req, res) => {
 });
 
 
-// UPDATE SURVEY ENTRIES //
+// UPDATE API DATA //
 
 app.post('/api/test', (req, res) => {
 	const test = {
@@ -59,5 +61,4 @@ app.get('/api/test/:name', (req, res) => {
 	const perso = tests.find(c => c.name == req.params.name);
 	if (!perso) res.status(404).send('Ne trouve pas name');
 	res.send(perso);
-	//afficher animal 
 });
